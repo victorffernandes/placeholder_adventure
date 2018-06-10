@@ -1,0 +1,4 @@
+player#20#508
+box#450#558
+pressureplate#750#598
+door#900#508
