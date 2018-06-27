@@ -2,11 +2,11 @@ from PPlay.window import *
 from main.scenes.menu import *
 from main.scenes.game import *
 from main.scenes.config import *
-from main.scenes.ranking import *
-
+from main.scenes.creditos import *
 
 janela = Window(1080, 600)
 janela.set_background_color((0, 0, 0))
+janela.set_title("Placeholder Adventure")
 mouse = janela.get_mouse()
 keyboard = janela.get_keyboard()
 
@@ -19,13 +19,13 @@ def change_scene(scene):
         actual_scene = Menu(janela, mouse, keyboard)
         actual_scene.start()
     elif scene == 2:
-        actual_scene = Game(janela, mouse, keyboard, dif)
+        actual_scene = Game(janela, mouse, keyboard)
         actual_scene.start()
     elif scene == 3:
         actual_scene = Config(janela, mouse, keyboard)
         actual_scene.start()
     elif scene == 4:
-        actual_scene = Ranking(janela, mouse, keyboard)
+        actual_scene = Creditos(janela, mouse, keyboard)
         actual_scene.start()
     else:
         quit()

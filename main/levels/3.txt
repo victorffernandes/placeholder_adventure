@@ -1,0 +1,35 @@
+// Caixas
+box#500#100
+box#500#225
+box#500#350
+box#400#0
+box#600#0
+box#500#550
+// Plataforma mais alta
+platform#380#100
+platform#480#100
+platform#580#100
+//Plataforma do meio
+platform#380#225
+platform#480#225
+platform#580#225
+platform#680#225
+// Plataforma mais baixa
+platform#380#350
+platform#480#350
+platform#580#350
+platform#680#350
+platform#780#350
+
+// Plataforma mais baixa
+platform#380#475
+platform#480#475
+platform#580#475
+platform#680#475
+platform#780#475
+platform#880#475
+
+player#980#500
+door#0#100#1
+platform#0#200
+background#0#0
