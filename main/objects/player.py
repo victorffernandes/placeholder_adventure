@@ -8,4 +8,5 @@ class Player(Sprite):
         self.grav = grav
         self.grav_acc = grav_acc
         self.jump = jump
-        #self.footCollider = [Sprite.x, Sprite.y + (9*Sprite.height)/10, Sprite.width, Sprite.y + Sprite.height]
+        self.groundCol = False
+        self.col = False

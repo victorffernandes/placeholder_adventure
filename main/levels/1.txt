@@ -1,4 +1,4 @@
-player#20#508
-box#450#558
-pressureplate#750#598
-door#900#508
+player#20#500
+box#450#550
+pressureplate#750#590
+door#900#500#0
