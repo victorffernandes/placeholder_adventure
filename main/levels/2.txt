@@ -1,0 +1,25 @@
+// Caixas
+box#780#125
+box#880#125
+box#980#125
+// Plataforma mais alta
+platform#780#175
+platform#880#175
+platform#980#175
+//Plataforma do meio
+platform#680#300
+platform#780#300
+platform#880#300
+platform#980#300
+pressureplate#980#290
+// Plataforma mais baixa
+platform#580#450
+platform#680#450
+platform#780#450
+platform#880#450
+platform#980#450
+pressureplate#980#440
+// Chão
+pressureplate#980#590
+door#0#500
+player#0#500
