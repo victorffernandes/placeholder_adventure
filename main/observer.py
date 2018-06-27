@@ -5,7 +5,7 @@ from main.scenes.config import *
 from main.scenes.ranking import *
 
 
-janela = Window(1080, 608)
+janela = Window(1080, 600)
 janela.set_background_color((0, 0, 0))
 mouse = janela.get_mouse()
 keyboard = janela.get_keyboard()

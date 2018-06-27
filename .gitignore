@@ -1,3 +1,5 @@
-/venv
-venv
+venv/
+PPlay
+main/scenes/__pycache__/
+main/objects/__pycache__/
 /.idea
